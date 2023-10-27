@@ -4,8 +4,14 @@ We used a data set containing individuals’ age, sex, weight, bmi, number of de
 For all the models except for Linear Regression, were tested against the bin_claim categories. The claim values were split into quartiles- low, low-medium, medium-high and high claim price. The Linear Regression model was tested against the individual claim prices. 
 
 The linear regression model gave us our lowest accuracy, with a score of 71%. From this model, there is a clear distinction between the charges that smokers have to pay. Age also plays a high role in predicting insurance claims. 
+![image](https://github.com/ilianamca/insurance_claim_prediction/assets/130320641/39a30554-33cf-4641-b4a1-0a751e474969)
+
 
 The random forest model has great performance. It has a high accuracy of 97.86% and strong precision, recall, and F1 scores across all claim bins. It is particularly great at classifying “medium-high” and “low” claim instances. According to this model, a person’s age and whether they are a smoker or not are the two greatest indicators when predicting a claim.
+
+Bellow is an image ranking how much each condition will effect the price of the claim.
+![image](https://github.com/ilianamca/insurance_claim_prediction/assets/130320641/dc534c7f-f850-417a-89c2-422e84889528)
+
 
 The decision tree model also has a very high accuracy, of 97%. Making it a very good model to test this dataset against. Similarly, it is great at predicting the classification of the claim price.
  
